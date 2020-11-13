@@ -1,0 +1,55 @@
+//- div.wrapper
+div.section-header
+  div.navbar.header-box
+    a.navbar-brand(href="#")
+      svg.logo
+        use(href="../img/sprite.svg#logo")
+    button.navbar-toggler.btn.get-consultation-btn получить КОНСУЛЬТАЦИЮ
+  div
+    div.row.form-box
+      div.col-12.col-md-7.arrow-box
+        p.heading.heading-form #[mark ТОРГОВЫЕ СИГНАЛЫ] #[br] ОТ ЭКСПЕРТА КАЖДЫЙ ДЕНЬ В ВАШЕМ #[span.telegram TELEGRAM]
+        form.access-form(action="#")
+          div.input-box.form-group
+            label(for="name")
+              svg.icon
+                use(href="../img/sprite.svg#form-name")
+              input.form-control(type="text" id="name" placeholder="Введите имя") 
+          div.input-box.form-group
+            label(for="email")
+              svg.icon
+                use(href="../img/sprite.svg#form-email")
+              input.form-control(type="email" id="email" placeholder="E-mail")
+          div.input-box.form-group
+            label(for="phone")
+              svg.icon
+                use(href="../img/sprite.svg#form-phone") 
+              input.form-control(type="number" id="phone" placeholder="Телефон") 
+          button.btn ПОЛУЧИТЬ ДОСТУП
+        svg.arrow
+          use(href="../img/sprite.svg#arrow")
+      div.col-0.col-md-5
+        img.img-phone(src="../img/phone.png")
+    ul.benefits.row-cols-1.row-cols-md-2.row-cols-lg-5.row.justify-content-between.ml-auto.mr-auto
+
+        li.card.benefits-item
+          div.card-body
+            p.benefits-text #[strong.card-title.benefits--bold 3 рынка] фондовый, товарный, валютный
+            div.benefits-background 3
+        li.card.benefits-item
+          div.card-body
+            p.benefits-text #[strong.card-title.benefits--bold 15%] средняя доходность в месяц
+            div.benefits-background 15
+        li.card.benefits-item
+          div.card-body
+            p.benefits-text #[strong.card-title.benefits--bold до 10] торговых сигналов в день
+            div.benefits-background 10
+        li.card.benefits-item
+          div.card-body
+            p.benefits-text #[strong.card-title.benefits--bold до 90%] прибыльность сигналов
+            div.benefits-background 90
+        li.card.benefits-item.mr-auto.ml-auto.mr-auto
+          div.card-body
+            p.benefits-text #[strong.card-title.benefits--bold от 80] пунктов за сделку
+            div.benefits-background 80
+  div

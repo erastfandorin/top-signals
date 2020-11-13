@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Rubik;
+  font-weight: 700;
+}
+
+main {
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+label {
+  display: block;
+}
+
+button {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.heading {
+  letter-spacing: 0.04em;
+  color: #195b84;
+}
+
+.container {
+  padding: 0;
+}

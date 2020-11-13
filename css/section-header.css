@@ -1,0 +1,425 @@
+.wrapper {
+  position: absolute;
+  width: 68%;
+  height: 1178px;
+  left: -151px;
+  top: 0px;
+  background: #f3fcff;
+  border: 1px solid transparent;
+  border-radius: 0 90px 90px 0;
+  box-shadow: -2px 2px 5px 0px grey;
+
+  @media (max-width: 1440px) {
+    width: 1193px;
+  }
+  @media (max-width: 1200px) {
+    width: 990px;
+  }
+  @media (max-width: 992px) {
+    width: 760px;
+    height: 1148px;
+  }
+  @media (max-width: 767px) {
+    width: 100%;
+    height: 1423px;
+    left: 0;
+    border-radius: 0;
+  }
+}
+
+.section-header {
+  margin-bottom: 160px;
+
+  @media (max-width: 1200px) {
+    margin-bottom: 170px;
+  }
+  @media (max-width: 992px) {
+    margin-bottom: 70px;
+  }
+
+  .header-box {
+    margin-bottom: 42px;
+    padding: 20px 0px;
+
+    @media (max-width: 992px) {
+      padding: 10px 0px;
+      margin-bottom: 22px;
+    }
+    @media (max-width: 768px) {
+      padding: 0px 2px;
+    }
+
+    .logo {
+      width: 160px;
+      height: 80px;
+
+      @media (max-width: 992px) {
+        width: 130px;
+        height: 65px;
+      }
+      @media (max-width: 767px) {
+        width: 100px;
+        height: 50px;
+      }
+    }
+
+    .get-consultation-btn {
+      width: 250px;
+      height: 60px;
+      color: #2dafd7;
+      font-size: 15px;
+      border: 2px solid #2dafd7;
+      border-radius: 5px;
+
+      @media (max-width: 992px) {
+        width: 230px;
+        height: 50px;
+        font-size: 13px;
+      }
+      @media (max-width: 767px) {
+        width: 200px;
+        height: 47px;
+        font-size: 11px;
+      }
+    }
+  }
+
+  .form-box {
+    margin-bottom: 136px;
+
+    @media (max-width: 992px) {
+      margin: 0 0 50px 0;
+    }
+
+    .heading-form {
+      padding-top: 47px;
+      margin-bottom: 40px;
+      text-indent: -13px;
+      font-size: 44px;
+      line-height: 54px;
+
+      @media (max-width: 1200px) {
+        font-size: 38px;
+        line-height: 48px;
+        text-indent: -8px;
+      }
+      @media (max-width: 992px) {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+      }
+      @media (max-width: 767px) {
+        text-align: center;
+        font-size: 20px;
+        line-height: 28px;
+      }
+
+      mark {
+        background: #fff;
+        color: #195b84;
+        padding: 0 10px;
+      }
+
+      .telegram {
+        color: #2dafd7;
+      }
+    }
+
+    .access-form {
+      width: 380px;
+
+      @media (max-width: 992px) {
+        width: 401px;
+      }
+      @media (max-width: 767px) {
+        width: 96%;
+        margin: 0 auto;
+      }
+
+      input {
+        height: 60px;
+        font-family: Poppins, Noto Sans TC, sans-serif;
+        color: #99bbc6;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 15px;
+        padding-left: 50px;
+        box-shadow: 5px 5px 20px rgba(0, 85, 112, 0.15);
+      }
+
+      input::placeholder {
+        color: #99bbc6;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+
+      button {
+        width: 100%;
+        height: 70px;
+        background: #2dafcd;
+        box-shadow: 15px 5px 20px rgba(45, 175, 215, 0.2);
+        border-radius: 5px;
+        color: #fff;
+        box-shadow: 15px 5px 20px rgba(45, 175, 215, 0.2);
+      }
+
+      .input-box {
+        position: relative;
+
+        .icon {
+          position: absolute;
+          left: 0;
+          top: 0;
+          margin: 21px 14px;
+        }
+      }
+
+      .input-box:nth-child(3) input {
+        margin-bottom: 30px;
+      }
+
+      .input-box {
+        &:nth-child(1) svg {
+          width: 24px;
+          height: 21px;
+        }
+        &:nth-child(2) svg {
+          width: 24px;
+          height: 18px;
+        }
+        &:nth-child(3) svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+    .arrow-box {
+      position: relative;
+
+      .arrow {
+        position: absolute;
+        top: 182px;
+        left: 416px;
+        width: 298.44px;
+        height: 366.08px;
+
+        @media (max-width: 1200px) {
+          top: 171px;
+          left: 387px;
+          width: 271.44px;
+          height: 355.08px;
+          transform: rotate(-7deg);
+        }
+        @media (max-width: 992px) {
+          display: none;
+        }
+      }
+    }
+
+    .img-phone {
+      width: 290px;
+      margin-left: 65px;
+
+      @media (max-width: 1200px) {
+        width: 275px;
+        margin-left: 93px;
+        margin-top: 20px;
+      }
+      @media (max-width: 992px) {
+        margin-left: 8px;
+      }
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+
+  .benefits {
+    width: 96%;
+    height: 201px;
+    border: none;
+    position: relative;
+    padding: 0;
+    box-shadow: 5px 5px 20px rgba(0, 85, 112, 0.15);
+
+    @media (max-width: 992px) {
+      height: 100%;
+      box-shadow: none;
+    }
+
+    .benefits-item {
+      border: none;
+
+      @media (max-width: 992px) {
+        width: 49%;
+        margin-bottom: 10px;
+        margin-right: -12px;
+        box-shadow: 5px 5px 20px rgba(0, 85, 112, 0.15);
+      }
+    }
+
+    .benefits-item::after {
+      content: " ";
+      position: absolute;
+      right: 2px;
+      top: 25px;
+      width: 5px;
+      height: 150px;
+      background: #f3fcff;
+      border-radius: 5px;
+    }
+    .benefits-item:nth-child(5)::after {
+      display: none;
+    }
+    @media (max-width: 992px) {
+      .benefits-item::after {
+        display: none;
+      }
+    }
+
+    .benefits-text {
+      position: relative;
+      z-index: 2;
+      margin-top: 37px;
+      font-family: Poppins, Noto Sans TC, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #195b84;
+
+      @media (max-width: 1200px) {
+        font-size: 15px;
+      }
+    }
+
+    .benefits-item:nth-child(1) .benefits-text {
+      width: 194px;
+      @media (max-width: 1200px) {
+        width: 96%;
+      }
+    }
+
+    .benefits-item:nth-child(5) .benefits-text {
+      width: 136px;
+      padding-left: 42px;
+      @media (max-width: 1200px) {
+        padding-left: 2px;
+      }
+      @media (max-width: 992px) {
+        width: 100%;
+      }
+    }
+
+    .benefits--bold {
+      display: block;
+      margin-bottom: 5px;
+      text-align: center;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #195b84;
+
+      @media (max-width: 1200px) {
+        font-size: 17px;
+        margin-bottom: 2px;
+      }
+    }
+
+    .benefits-background {
+      position: absolute;
+      z-index: 1;
+      top: 7px;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 144px;
+      line-height: 216px;
+      text-transform: uppercase;
+      color: rgba(246, 246, 246, 0.8);
+
+      @media (max-width: 1200px) {
+        margin-top: 18px;
+        font-size: 116px;
+      }
+      @media (max-width: 992px) {
+        top: -19px;
+      }
+    }
+
+    li {
+      &:nth-child(1) .benefits-background {
+        left: 127px;
+        @media (max-width: 1200px) {
+          left: 109px;
+        }
+        @media (max-width: 992px) {
+          left: 273px;
+        }
+        @media (max-width: 767px) {
+          left: 187px;
+          top: -19px;
+        }
+      }
+      &:nth-child(2) .benefits-background {
+        left: 58px;
+        @media (max-width: 1200px) {
+          left: 53px;
+        }
+        @media (max-width: 992px) {
+          left: 217px;
+        }
+        @media (max-width: 767px) {
+          left: 132px;
+          top: -19px;
+        }
+      }
+      &:nth-child(3) .benefits-background {
+        left: 50px;
+        @media (max-width: 992px) {
+          left: 214px;
+        }
+        @media (max-width: 767px) {
+          left: 128px;
+        }
+      }
+      &:nth-child(4) .benefits-background {
+        left: 31px;
+        @media (max-width: 1200px) {
+          left: 34px;
+        }
+        @media (max-width: 992px) {
+          left: 198px;
+        }
+        @media (max-width: 767px) {
+          left: 113px;
+        }
+      }
+      &:nth-child(5) .benefits-background {
+        left: 27px;
+        @media (max-width: 1200px) {
+          left: 34px;
+        }
+        @media (max-width: 992px) {
+          left: 194px;
+        }
+        @media (max-width: 767px) {
+          left: 108px;
+        }
+      }
+    }
+  }
+}
